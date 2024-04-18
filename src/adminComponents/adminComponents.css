@@ -1,0 +1,74 @@
+.container-admin{
+    flex-direction: column;
+}
+.header-content{
+    margin-left: 10%;
+}
+.table-content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.train-line-detail {
+    width: 70%;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .train-line-detail h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .train-line-detail p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .train-line-detail .label {
+    font-weight: bold;
+  }
+  
+  .train-line-detail .status-active {
+    color: green;
+  }
+  
+  .train-line-detail .status-inactive {
+    color: red;
+  }
+  .text-add{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .text-add h3{
+    margin: 0;
+    margin-right: 0.5%;
+  }
+  /* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container-addtrainline {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.padding5 {
+  padding: 5%
+}
+.margin2 {
+  margin: 2%
+}
